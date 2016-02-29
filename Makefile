@@ -19,6 +19,8 @@ ARCH_FLAGS  := -mcpu=cortex-m4 -mthumb
 OPT_FLAGS   := -O2 -g
 BUILD_FLAGS := -ffunction-sections -fdata-sections -fsingle-precision-constant
 
+MAKEFLAGS = --jobs=12
+
 
 # Normally this stuff should not need to be edited
 
